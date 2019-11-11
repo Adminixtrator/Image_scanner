@@ -1,0 +1,135 @@
+body{
+	background-color: #FAFAFA !important;
+	font-size: 18px !important;
+}
+.content{
+	padding-top: 100px;
+}
+.compare {
+	background: rgba(59, 31, 158, 0.05);
+	padding: 10px 10px;
+	color: #3B1F9E;
+
+}
+.other {
+	background: rgba(59, 31, 158, 0.05);
+	color: #3B1F9E;
+}
+h3, h5, h6{
+	font-weight: bold !important;
+}
+.button a {
+
+	font-size: 12px;
+	background: rgba(59, 31, 158, 0.05);
+	font-weight: bold;
+	border-radius: 50px;
+	color: #3B1F9E;
+}
+.btn-group {
+	text-align: center;
+}
+
+label {
+	background: rgba(59, 31, 158, 0.05) !important;
+	color: #3B1F9E !important;
+	font-weight: bold !important;
+}
+ .btn-1 {
+ 	outline: 0;
+ 	font-weight: bold !important;
+	padding: 8px 50px !important;
+	border-radius: 50px !important;
+	color: #3B1F9E !important;
+	background: rgba(59, 31, 158, 0.05) !important; 
+	font-size: 18px !important;
+	border-width: 0px;
+}
+.btn-2 {
+	outline: 0;
+	background:#3B1F9E;
+	color: white !important;
+	font-size: 18px !important;
+	border-width: 0px;
+	font-weight: bold !important;
+	padding: 8px 50px !important;
+	border-radius: 50px !important;
+}
+
+textarea{
+	background-color: rgba(59, 31, 158, 0.05) !important;
+}
+.ta {
+display: flex;
+justify-content: space-between;
+
+}
+.folder {
+	background-color:white !important;
+	border-width: solid 5px white !important;
+	border-radius: 30px;
+	box-shadow: 50px black !important;
+
+}
+#FormControlTextarea1 {
+	border-left-width: 0;
+}
+#FormControlTextarea2 {
+	border-right-width: 0;
+}
+.fc {
+	margin-bottom: 100px !important;
+}
+.text-start {
+	margin-left: 100px !important;
+}
+.btn-3 button{
+	font-weight: bold;
+	color: white !important;
+	background:#3B1F9E;
+	padding: 8px 50px !important;
+	border-radius: 50px !important;
+	margin-left: -15px!important;
+}
+.btn-url{
+	border: solid 1px #3B1F9E !important;
+}
+.btn-url:hover{
+	background: #3B1F9E;
+}
+@media only screen and (max-width: 768px){
+	.compare {
+		
+		margin-bottom: 20px !important;
+		text-align: center;
+		padding-left: 20px;
+	}
+	.other {
+		padding-bottom: 20px;
+		text-align: center;
+		margin-left: 20px;
+		padding-top: 0px !important;
+	}
+	.btn-3 button {
+		justify-content: center !important;
+		
+	}
+	.url-txt {
+		padding-bottom: 17px !important;
+	}
+    
+	.comp-txt {
+		text-align: center;
+	}
+	.text-start {
+		margin: 0 8px !important;
+
+	}
+	.CP {
+		margin-left: 20px !important;
+	}
+	.upload {
+		margin-top: 20px;
+		margin-bottom: 35px !important;
+	}
+}

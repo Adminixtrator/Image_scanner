@@ -1,0 +1,177 @@
+        .profile-body{
+            background: #2d2d89;
+        }
+        .profile-box{
+            background:#F8F9FA;
+            border-radius: 8px;
+            padding:1.5rem 3.5rem 4rem 3.5rem;
+        }
+
+        .profile-box .navbar{
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 3rem;
+        }
+
+        .rounded-img{
+            border-radius: 50%;
+        }
+
+        .s-rounded-img{
+            border-radius: 8px;
+        }
+
+        .mx-90{
+            max-width: 90%;
+        }
+
+        .mw-40{
+            max-width: 40px;
+        }
+
+        .logo-img{
+            max-width: 200px;
+        }
+
+        .profile-body .navbar .nav-item{
+            font-weight: bold;
+        }
+
+        .shaded-black{
+            color: #565d62
+        }
+
+        .userprofile-location{
+            font-size: 1rem;
+            color: #838383;
+        }
+
+        .medium-text{
+            font-size: .9rem;
+            font-weight: 500;
+        }
+
+        .medium-purple-text{
+            color: #2d2d89;
+            font-weight: bold;
+            font-size: .9rem;
+        }
+
+        .small-spaced-text{
+            color: #918888;
+            font-size: .7rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding:2rem 0;
+        }
+
+        .userprofile-date span{
+            display: flex;
+            font-size: 1rem;
+            letter-spacing: 0;
+            color: #2d2d89;
+            font-weight: bold;
+        }
+
+        .prof-btn{
+            background: #e3e4fd;
+            color: #2d2d89;
+            padding: .4rem .7rem;
+            font-size: .85rem;
+            font-weight: 500;
+            border-radius: 0;
+            transition:all .8s;
+        }
+
+        .prof-btn .fa{
+            padding-right: .3rem;
+        }
+
+        .prof-btn:hover{
+            background: #bec0f4
+        }
+
+        .prof-about-title{
+            border-bottom: 2px solid #bec0f4;
+            padding: 3rem 0 1rem 0;
+            margin-bottom: 2rem;
+
+        }
+
+        .font-nine{
+            font-size: .9rem;
+        }
+
+        .contact-info{
+            max-width: 500px;
+        }
+
+        .profile-info-bloc{
+            padding:1.5rem 0;
+        }
+
+        .transaction-history-bloc{
+            background: #e3e4fd;
+            border-radius: 5px;
+            padding:1rem 2rem;
+        }
+
+        .profile-circle{
+            border-radius: 50%;
+            background: #3b1f9e;
+            padding: .75rem .7rem;
+            color: #fff;
+            font-size: .8rem;
+            position: relative;
+            top: -10px;
+        }
+
+        .profile-name{
+                background: #3b1f9e;
+                text-align: center;
+                height: 100px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                color: #fff;
+                font-size: 1.4rem;
+                font-weight: bold;
+                border-radius: 6px;
+                border-top: 6px solid #000;
+        }
+
+
+        @media (max-width: 1100px){
+
+            .profile-circle{
+                display: none;
+            }
+
+            .userprofile-col{
+                flex: 1 !important;
+                max-width: 100% !important;
+            }
+
+
+            .contact-info p{
+                flex-direction: column;
+            }
+
+            .p-bloc-btn{
+                display: block;
+                margin:1rem 0;
+            }
+
+            .logo-img{
+                max-width: 80px;
+            }
+
+            .profile-details{
+                order:-1;
+                margin-bottom: 3rem;
+            }
+
+
+        }
+
+        

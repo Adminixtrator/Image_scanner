@@ -1,0 +1,24 @@
+.div1{
+   margin-top: 100px;
+   height: 75vh;
+}
+.ops{
+	color: #3B1F9E;
+}
+.btn1{
+	border-radius: 20px; 
+	border:1px solid #3B1F9E; 
+	outline: none;
+	background-color: #ffffff;
+	color: #3B1F9E;
+	padding: 5px;
+}
+.giffy{
+	padding: 20px;
+}
+.p1{
+	font-size: 80px;
+}
+.p2{
+	font-size: 15px;
+}

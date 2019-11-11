@@ -1,0 +1,292 @@
+
+body{
+    background: #E5E5E5;
+}
+
+.duplicate-file-header{
+    background: rgba(59, 31, 158, 0.05);
+    
+}
+.custom-row{
+    padding: 17px 17px 28px 16px;
+}
+.white-circle {
+	background: #fff;
+	width: 120px;
+	height: 120px;
+    border-radius: 60px;
+    display: flex;
+}
+
+.page-description{
+    padding-top: 25px;
+    max-width: 456px;
+}
+
+.page-description h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3B1F9E;
+
+
+}
+
+.page-description p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #3B1F9E;
+
+}
+
+.tools-link-box{
+    background: #F6F8F9;
+    border: 1px solid #DEE6EA;
+    box-sizing: border-box;
+    margin-left: 28px
+}
+
+.tools-btn{
+    background: rgba(59, 31, 158, 0.05);
+    border-radius: 40px;
+    height: 28px;
+    display: inline;    
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 130%;
+
+/* identical to box height, or 16px */
+
+color: #3B1F9E;
+
+
+}
+
+
+.tools-btn-block{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.switch-btn-block{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.switch-btn-file, .switch-btn-text {
+	border-radius: 40px;
+	display: inline-block;
+	width: 15%;
+	width: 204px;
+	height: 46px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 130%;
+	
+    color: #3B1F9E;
+    background: #f6f8f9;
+    
+}
+
+/* .switch-btn-text {
+	position: absolute;
+    right: 560px;
+    width: 130px;
+    height: 46px;
+    z-index: 1;
+}
+
+.switch-btn-file{
+    position: relative;
+
+} */
+
+.tab-active{
+    background: #3B1F9E;
+    color: #fff;
+    height: inherit;
+    width: inherit;
+}
+
+
+.active1 span {
+    color: white;
+    font-weight: bold;
+    background-color: #3b1f9e;
+}
+
+
+.upload-container {
+	background: #F6F8F9;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+	width: 100%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.dotted-container {
+	border: 1px dashed #828282;
+	box-sizing: border-box;
+	margin: auto;
+	width: 100%;
+
+}
+
+.folder-logo{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.upload-files-section {
+	margin: 35px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.upload-files-section p{
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+
+color: #828282;
+
+
+}
+
+.upload-files-section a {
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+
+color: #828282;
+margin-top: 5px;
+
+}
+
+.uploadBtnClass{
+
+    width: 222px;
+    height: 40px;
+
+    background: #3B1F9E;
+    border-radius: 20px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    
+    /* identical to box height */
+    
+    margin-top: 27px;
+    color: #FFFFFF;
+    clear: both;
+    
+}
+
+.delimterInput{
+    max-width: 564px;
+    height: 81px;
+    background: rgba(59, 31, 158, 0.05);
+    border-radius: 5px;
+}
+
+#uploadURLForm{
+    display: none;
+}
+
+
+#resultArea{
+    display: none;
+}
+
+
+
+.delimiter-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.delimiter-flex label{
+    font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 130%;
+
+/* or 23px */
+
+color: #3B1F9E;
+
+
+}
+
+#textareaBefore, #textareaResult{
+    width: 100% 
+}
+
+#textareaResult{
+    min-height: 70vh;
+    border-right:0; 
+}
+
+#textareaBefore{
+    min-height: 70vh;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+
+.no-padding{
+    padding: 0;
+    margin: 0;
+
+}
+
+.textDuplicate{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    max-width: 1197px;
+}
+
+.resetBtn{
+    border: 1px solid #E46075;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 222px;
+}
+
+
+.button-container{
+    padding: 23px;
+}
+

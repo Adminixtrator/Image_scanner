@@ -1,0 +1,296 @@
+/* 
+#main {
+    background: #fafafa !important;
+    padding-bottom: 2em;
+}
+#navbarNavDropdown a,
+#navbar-brand,
+h4,
+p {
+    color: rgba(12, 10, 90, 0.8);
+}
+span {
+    color: rgba(12, 10, 90, 0.8);
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.active1 span {
+    color: white;
+    font-weight: bold;
+    background-color: #3b1f9e;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+.padding {
+    padding-left: 9em;
+    padding-right: 9em;
+}
+#textareaBefore {
+    border-right: 1px solid#C4C4C4 !important;
+}
+
+@media (max-width: 576px) {
+    label {
+        display: block;
+    }
+
+    img {
+        padding-top: 0 !important;
+    }
+
+    .margin {
+        margin-bottom: 2em;
+    }
+
+    .padding {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    #modal-header {
+        padding: 0px;
+    }
+
+    #modal-header h2 {
+        font-size: 20px;
+    }
+
+    #modal-content {
+        padding: 0px;
+    }
+    #textareaBefore {
+        border-right: 0 !important;
+    }
+    .text {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.active a {
+    color: grey !important;
+}
+
+.shareBtn button {
+    background: #343a40;
+    color: rgb(87, 207, 244);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+.shareBtn a {
+    text-decoration: none;
+}
+
+.shareBtn a:hover {
+    color: rgb(87, 207, 244);
+}
+
+.shareBtn button:hover {
+    padding: 9px 18px;
+}
+
+.shareBtn h4 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.shareBtn {
+    display: none;
+}
+
+.w3-modal-content {
+    padding: 0px;
+    background-color: rgb(253, 252, 252);
+    border-radius: 10px;
+}
+
+#modal-header {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+#modal-content {
+    padding: 0px 5% 20px 5%;
+}
+
+li {
+    line-height: 30px;
+}
+
+#important {
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.space {
+    padding: 4px 8px;
+}
+
+#uploadUrlForm {
+    display: none;
+} */
+
+#main {
+    background: #fafafa !important;
+    padding-bottom: 2em;
+}
+#navbarNavDropdown a,
+#navbar-brand,
+h4,
+p {
+    color: rgba(12, 10, 90, 0.8);
+}
+span {
+    color: rgba(12, 10, 90, 0.8);
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.active1 span {
+    color: white;
+    font-weight: bold;
+    background-color: #3b1f9e;
+}
+
+textarea {
+    width: 100% !important;
+}
+
+.padding {
+    padding-left: 9em;
+    padding-right: 9em;
+}
+#textareaBefore {
+    border-right: 1px solid#C4C4C4 !important;
+}
+
+@media (max-width: 576px) {
+    label {
+        display: block;
+    }
+
+    img {
+        padding-top: 0 !important;
+    }
+
+    .margin {
+        margin-bottom: 2em;
+    }
+
+    .padding {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    #modal-header {
+        padding: 0px;
+    }
+
+    #modal-header h2 {
+        font-size: 20px;
+    }
+
+    #modal-content {
+        padding: 0px;
+    }
+    #textareaBefore {
+        border-right: 0 !important;
+    }
+    .text {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.active a {
+    color: grey !important;
+}
+
+.shareBtn button {
+    background: #343a40;
+    color: rgb(87, 207, 244);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+.shareBtn a {
+    text-decoration: none;
+}
+
+.shareBtn a:hover {
+    color: rgb(87, 207, 244);
+}
+
+.shareBtn button:hover {
+    padding: 9px 18px;
+}
+
+.shareBtn h4 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.shareBtn {
+    display: none;
+}
+
+/* .navbar{
+ position:fixed;
+ width:100%;
+ top:0;
+ z-index:1;
+} */
+/* .duc{
+   margin-top:5%;
+} */
+
+.w3-modal-content {
+    padding: 0px;
+    background-color: rgb(253, 252, 252);
+    border-radius: 10px;
+}
+
+#modal-header {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+#modal-content {
+    padding: 0px 5% 20px 5%;
+}
+
+li {
+    line-height: 30px;
+}
+
+#important {
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.space {
+    padding: 4px 8px;
+}
+
+#uploadUrlForm {
+    display: none;
+}

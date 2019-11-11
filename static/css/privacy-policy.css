@@ -1,0 +1,14 @@
+h2{
+	font-weight: bold !important;
+	font-size: 36px !important;
+	color: #3B1F9E;
+	padding-top: 130px;
+	padding-bottom: 20px;
+}
+.content{
+	font-size: 18px !important;
+	padding: 52px 58px !important; 
+	background-color: #fff ;
+	color: #000;
+	border-radius: 0 100px 0 100px;
+}

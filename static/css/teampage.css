@@ -1,0 +1,491 @@
+
+
+
+        
+		body{
+			overflow-x: hidden;
+		   }
+		   .container{
+			   width: 100%;
+			   margin: 0 auto;
+		   }
+				 
+		   .content-box {
+			   padding: 60px 0 60px 0;
+		   }
+		   
+		   .content-title h3 {
+			   font-size: 1.875em !important;
+			   font-weight: bold;
+			   text-align: center;
+			   margin: 2% auto;
+			   font-family: 'Nunito', sans-serif !important;
+			   color: #3B1F9E !important;
+		   }
+   
+		   .content-title-underline {
+			   width: 100px;
+			   height: 2px;
+			   background-color: #3B1F9E;
+			   margin: 0 auto 30px auto;
+		   }
+		   .user-info h3{
+			   color: #3B1F9E !important;
+			   text-transform: capitalize !important;
+		   }
+		   /*====================================================================
+					   Diagonal Line and Profile Picture Setting
+		   ===================================================================*/
+   
+		   .the-col{
+			   width: 350px;
+			   display: flex;
+			   justify-content: space-around;
+			   margin-bottom: 50px;
+		   }
+   
+		   .all-users {
+			   width: 350px;
+			   height: auto;
+			   background-color: #fff;
+			   padding: 0;
+			   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+			   border-radius: 10px;
+		   }
+   
+		   .user-image {
+			   background-color: #013A6B;
+			   background-image: -webkit-linear-gradient(-60deg,#3B1F9E  50%, #fff 50%);
+			   border: none !important;
+			   min-height: 200px;
+			   padding-top: 50px;
+			   border-radius: 10px;
+		   }
+		   .content-part {
+			   padding: 30px 0 30px 0;
+			   text-align: center;
+		   }
+   
+		   .user-content {
+			   padding: 0 0 30px 0;
+		   }
+   
+   
+		   .content-footer {
+			   text-align: center;
+			   background: rgba(199, 195, 195, 0.1);
+			   height: 50px;
+		   }
+   
+		   .social-icons {
+			   padding: 10px 20px;
+		   }
+   
+		   /*====================================================================
+							   Social Icons styles
+		   ===================================================================*/
+		   .fa-twitter {
+			   color: #50ABF1;
+		   }
+   
+		   .fa-twitter {
+			   color: #73C2FB;
+		   }
+   
+		   .fa-linkedin {
+			   color: #73C2FB;
+		   }
+   
+		   .fa-facebook {
+			   color:  #4267B2;
+		   }
+   
+		   .fa-facebook {
+			   color:  #73C2FB;
+		   }
+		   .fa-instagram{
+			   color:  #73C2FB;
+		   }
+		   .fa-instagram:hover{
+			   color:  #E1306C;
+		   }
+		   .fa-linkedin:hover{
+			   color:#2867B2;
+		   }.fa-facebook:hover{
+			   color:#4267B2;
+		   }
+		   .fa-twitter:hover{
+			   color: #1DA1F2;
+		   }
+		   .content-footer{
+			margin-bottom: 10%;
+		   }
+		   .content-footer a {
+			   color: #060541;
+		   }
+						   
+		   .fa-bars{
+			   color: white;
+		   }
+		   .navbar-brand h1{
+			   font-family: 'Open Sans',sans-serif;
+			   font-size:40px;
+			   line-height: 1.5em;
+		   }
+   
+		   .generic-image-circle {
+			   height: 200px;
+			   width: 200px;
+			   background-size: cover;
+			   background-position: center;
+			   border-radius: 50%;
+			   margin: 0 auto;
+			   border: none !important;
+		   }
+   
+   
+		   .user-image-box-1 {
+			   background-image: url("https://res.cloudinary.com/mercyinyang/image/upload/v1567341335/mercy_-_Mercy_Inyang_fppxi9.jpg");
+		   }
+   
+		   .user-image-box-3 {
+			   background-image: url("https://res.cloudinary.com/erys1521/image/upload/v1567323865/Me_jgxgkf.jpg");
+		   }
+		   .user-image-box-4 {
+			   background-image: url("https://res.cloudinary.com/major/image/upload/v1571406076/IMG_20190823_004821_hsnwii.jpg");
+		   }
+		   .user-image-box-5 {
+			   background-image: url("https://res.cloudinary.com/ros4eva/image/upload/v1570140043/IMG_20190927_150929_gpoaza.jpg");
+		   }
+		   .user-image-box-6 {
+			   background-image: url("https://res.cloudinary.com/drkvge86d/image/upload/v1573117671/IMG_9602_avh8ip.jpg");
+		   }
+		   .user-image-box-7 {
+			   background-image: url("https://res.cloudinary.com/kuic/image/upload/v1566490915/startNg2019/kuic_jxb4la.jpg");
+		   }
+		   .user-image-box-8 {
+			   background-image: url("https://res.cloudinary.com/chidiebere/image/upload/v1523832031/pp.jpg");
+		   }
+		   .user-image-box-9 {
+			   background-image: url("https://res.cloudinary.com/geedee/image/upload/v1571420489/IMG_20190311_075802_315_hi0dii.jpg");
+		   }
+		   .user-image-box-10 {
+			   background-image: url("https://res.cloudinary.com/sidebone/image/upload/v1566557645/arleuyaxygdgarwsvrha.jpg");
+		   }
+		   .user-image-box-11 {
+			   background-image: url("https://res.cloudinary.com/patience/image/upload/v1566544234/peshie.jpg");
+		   }
+		   .user-image-box-12 {
+			   background-image: url("https://res.cloudinary.com/emmaodia/image/upload/v1571423773/emmaodia.jpg");
+		   }
+		   .user-image-box-13{
+			   background-image: url("https://res.cloudinary.com/abulwasiu22/image/upload/v1571411993/abdulwasiu02_p4qgpx.jpg");
+		   }
+		   .user-image-box-14 {
+			   background-image: url("https://res.cloudinary.com/aboogeeky/image/upload/v1566541703/passport_hcist5.jpg");
+		   }
+		   .user-image-box-15{
+			   background-image: url("https://res.cloudinary.com/ademolamadelewi/image/upload/v1571505429/IMG_20190910_180814_631_lgqv01.jpg");
+		   }
+   
+		   .user-image-box-16{
+			   background-image: url("https://res.cloudinary.com/rejreign/image/upload/v1566577575/Screenshot_from_2019-08-20_20-31-08_rexp8d.png");
+		   }
+   
+		   .user-image-box-17{
+			   background-image: url("https://res.cloudinary.com/rammy/image/upload/v1554506675/rammy.jpg");
+		   }
+   
+		   .user-image-box-18{
+			   background-image: url("https://res.cloudinary.com/adenike/image/upload/v1571418297/1_eiunzt.jpg");
+		   }
+   
+		   .user-image-box-19{
+			   background-image: url("https://res.cloudinary.com/onamusia/image/upload/v1567605657/Screenshot_2019-09-04_at_14.18.06_rap7kt.png");
+		   }
+   
+		   .user-image-box-20{
+			   background-image: url("https://res.cloudinary.com/omotosoyusuf/image/upload/v1566572749/yusufOmotoso_adafxo.jpg");
+		   }
+   
+		   .user-image-box-21{
+			   background-image: url("https://bit.ly/31w0RMR");
+		   }
+   
+		   .user-image-box-22{
+			   background-image: url("https://res.cloudinary.com/dqvu3ts0s/image/upload/v1502874057/IMG_20170707_065607_gqay7p.png");
+		   }
+   
+		   .user-image-box-23{
+			   background-image: url("https://res.cloudinary.com/dlkp3rtps/image/upload/v1571404933/paassport_tj_ukba4v.jpg");
+		   }
+   
+		   .user-image-box-24{
+			   background-image: url("https://res.cloudinary.com/dtbjhs8a6/image/upload/v1571405356/samples/lario/qqov6cplw8qs7uosewx7.jpg");
+		   }
+   
+		   .user-image-box-74{
+			   background-image: url("https://res.cloudinary.com/anikriz/image/upload/v1566560640/HNG%20%7CStartng%20Internship/passport_photo-min_zremwg.jpg");
+		   }
+   
+		   .user-image-box-25{
+			   background-image: url("https://res.cloudinary.com/ebukamoses/image/upload/v1570259839/MY%20PERSONAL%20PIX/DSC_1948_gb8tjn.jpg");
+		   }
+   
+		   .user-image-box-26{
+			   background-image: url("https://res.cloudinary.com/habeebability/image/upload/v1554381379/habeebability_pic.jpg");
+		   }
+   
+		   .user-image-box-27{
+			   background-image: url("https://res.cloudinary.com/hafizah/image/upload/v1566627089/Snapchat-733321432_3_ode4vf.jpg");
+		   }
+   
+		   .user-image-box-28{
+			   background-image: url("https://res.cloudinary.com/haroldb/image/upload/v1566662471/My_Photo_qjo6xz.jpg");
+		   }
+   
+		   .user-image-box-29{
+			   background-image: url("https://res.cloudinary.com/sima-inc/image/upload/v1566541929/samples/igoboSTNG_l7vvm4.jpg");
+		   }
+   
+		   .user-image-box-30{
+			   background-image: url("https://res.cloudinary.com/chimeziesolomon/image/upload/v1571403236/mypic.png_eq6fzr.jpg");
+		   }
+   
+		   .user-image-box-31{
+			   background-image: url("https://res.cloudinary.com/joshualoni2/image/upload/v1571407100/IMG-20190629-WA0011_s2kswp.jpg");
+		   }
+   
+		   .user-image-box-33{
+			   background-image: url("https://res.cloudinary.com/nnonornora/image/upload/v1571415194/IMG_20190624_100838_6_c2j4tr.jpg");
+		   }
+   
+		   .user-image-box-34{
+			   background-image: url("https://res.cloudinary.com/kuic/image/upload/v1571245043/docufix/Ellipse_3_ahe63z.png");
+		   }
+   
+		   .user-image-box-35{
+			   background-image: url("https://res.cloudinary.com/olaleye247/image/upload/v1571407030/passport_akcscg.jpg");
+		   }
+   
+		   .user-image-box-36{
+			   background-image: url("https://res.cloudinary.com/sidebone/image/upload/v1566557645/arleuyaxygdgarwsvrha.jpg");
+		   }
+   
+		   .user-image-box-37{
+			   background-image: url("https://res.cloudinary.com/adaeze123/image/upload/v1566518405/myfacepicture_fcjp8m.jpg");
+		   }
+   
+		   .user-image-box-38{
+			   background-image: url("https://res.cloudinary.com/omyasobie/image/upload/v1569340436/omi_ief366.jpg");
+		   }
+   
+		   .user-image-box-39{
+			   background-image: url("https://res.cloudinary.com/olasumboeniola/image/upload/v1571408198/FB_IMG_15700193231610244_tffkyv.jpg");
+		   }
+   
+		   .user-image-box-40{
+			   background-image: url("https://res.cloudinary.com/dlqceb87c/image/upload/v1566503590/shola_grav_het1lf.jpg");
+		   }
+   
+		   .user-image-box-41{
+			   background-image: url("https://res.cloudinary.com/el-beracah/image/upload/v1566893213/67973790_479745906182578_7630307018294191377_n.jpg_dmmkmn.jpg");
+		   }
+   
+		   .user-image-box-42{
+			   background-image: url("https://res.cloudinary.com/soares04/image/upload/v1566492008/uxxbl8xkagqeo9h00pl8.jpg");
+		   }
+   
+		   .user-image-box-43{
+			   background-image: url("https://res.cloudinary.com/saintmalik/image/upload/v1566558378/u9q6wxtekw0dv5p8hn2i.jpg");
+		   }
+   
+		   .user-image-box-44{
+			   background-image: url("https://res.cloudinary.com/sape123/image/upload/v1571408607/IMG_20190518_183300_785_500x466_2_sykpju.jpg");
+		   }
+   
+		   .user-image-box-45{
+			   background-image: url("https://res.cloudinary.com/michelle300/image/upload/v1566599180/81EBDAE3-32FE-4C3D-B237-EC19C38207F8_na3ccj.jpg");
+		   }
+   
+		   .user-image-box-46{
+			   background-image: url("https://res.cloudinary.com/dxonc8cxc/image/upload/v1566546938/Chigozie_i5bkw8.jpg");
+		   }
+   
+		   .user-image-box-47{
+			   background-image: url("https://pbs.twimg.com/profile_images/825105787467026436/0GILl_nN_400x400.jpg");
+		   }
+   
+		   .user-image-box-48{
+			   background-image: url("https://res.cloudinary.com/ecstasy/image/upload/v1571409691/Passport/IMG_20190817_183732_veknsq.jpg");
+		   }
+   
+		   .user-image-box-49{
+			   background-image: url("https://res.cloudinary.com/onose/image/upload/v1571412582/Ono/j5wdvxagvqr2rvthbfzr.jpg");
+		   }
+   
+		   .user-image-box-50{
+			   background-image: url("https://res.cloudinary.com/tomisin/image/upload/c_scale,h_177,w_138/v1571413110/tomisin_ebjcqo.png");
+		   }
+   
+		   .user-image-box-51{
+			   background-image: url("https://res.cloudinary.com/ajiva/image/upload/v1568641919/profile-pic.jpg");
+		   }
+   
+		   .user-image-box-52{
+			   background-image: url("https://res.cloudinary.com/cypher/image/upload/v1566537651/Yusuf_zrin2n.jpg");
+		   }
+   
+		   .user-image-box-53{
+			   background-image: url("https://pbs.twimg.com/profile_images/559637048030953473/saIYHqN8_400x400.jpeg");
+		   }
+   
+		   .user-image-box-54{
+			   background-image: url("https://res.cloudinary.com/dvqlwtdpk/image/upload/v1571414014/81A550CC-DF2C-4715-8107-368B3027FBB4_byznsq.jpg");
+		   }
+   
+		   .user-image-box-55{
+			   background-image: url("https://res.cloudinary.com/wonderwoman/image/upload/v1571413682/docufix/cloudinary_krfskf.jpg");
+		   }
+   
+		   .user-image-box-56{
+			   background-image: url("https://res.cloudinary.com/ositu/image/upload/v1571414130/bankole/banks_llrq1m.jpg");
+		   }
+   
+		   .user-image-box-57{
+			   background-image: url("https://res.cloudinary.com/omobola/image/upload/v1566608564/StartNG/Saudat.png");
+		   }
+   
+		   .user-image-box-58{
+			   background-image: url("https://res.cloudinary.com/young-einstein/image/upload/v1567517232/passport_cjsegl.jpg");
+		   }
+   
+		   .user-image-box-59{
+			   background-image: url("https://res.cloudinary.com/mirakul1/image/upload/ar_1:1,c_fill,e_art:hokusai,g_auto,w_416/v1570188521/oe4mjfk792exqjpzwkxz.jpg");
+		   }
+   
+		   .user-image-box-60{
+			   background-image: url("https://res.cloudinary.com/lodgendury/image/upload/v1571417716/20181113_213452_cfhslm.jpg");
+		   }
+   
+		   .user-image-box-61{
+			   background-image: url("https://res.cloudinary.com/luqmonac56/image/upload/v1571416406/IMG-20190331-WA0006_mo6bmh.jpg");
+		   }
+   
+		   .user-image-box-62{
+			   background-image: url("https://res.cloudinary.com/haroldb/image/upload/v1566662471/My_Photo_qjo6xz.jpg");
+		   }
+   
+		   .user-image-box-63{
+			   background-image: url("https://pbs.twimg.com/profile_images/1092875947756437507/HTY2WmLx_400x400.jpg");
+		   }
+   
+		   .user-image-box-65{
+			   background-image: url("https://res.cloudinary.com/dowrygm9b/image/upload/v1570267346/IMG_6894-1_ykvrgg.jpg");
+		   }
+   
+		   .user-image-box-66{
+			   background-image: url("https://res.cloudinary.com/mcnoble/image/upload/v1566593070/StartNG/festus_g91ynv.webp");
+		   }
+   
+		   .user-image-box-67{
+			   background-image: url("https://res.cloudinary.com/yugach/image/upload/v1571404456/yugach_wn6y2u.jpg");
+		   }
+   
+		   .user-image-box-68{
+			   background-image: url("https://res.cloudinary.com/dzwtycmnl/image/upload/v1566590092/IMG_2602_osa6ad.jpg");
+		   }
+   
+		   .user-image-box-69{
+			   background-image: url("https://res.cloudinary.com/martinideen/image/upload/c_scale,h_192,w_192/v1566761204/Martini_For_Real_zppc1k.jpg");
+		   }
+   
+		   .user-image-box-71{
+			   background-image: url("https://res.cloudinary.com/maphorbs/image/upload/v1571404331/IMG_20190824_183700_ec93wk.jpg");
+		   }
+   
+		   .user-image-box-72{
+			   background-image: url("https://res.cloudinary.com/chidi6ix/image/upload/v1571407468/IMG_20190909_152905_EDIT_1_tppov7.jpg");
+		   }
+   
+		   .user-image-box-73{
+			   background-image: url("https://res.cloudinary.com/aburahman/image/upload/v1566652016/AbdulRahman%20Pictures/gzscf5hwgqalt8kiogph.jpg");
+		   }
+   
+		   @keyframes bottom {
+				   from {
+					   transform: translateY(50%);
+					   opacity: 0;
+				   }
+				   to {
+					   transform: translateY(0);
+					   opacity: 1;
+				   }
+			   }
+   
+			   @keyframes left {
+				   from {
+					   transform: translateX(-50%);
+					   opacity: 0;
+				   }
+				   to {
+					   transform: translateX(0);
+					   opacity: 1;
+				   }
+			   }
+			   @keyframes right {
+				   from {
+					   transform: translateX(50%);
+					   opacity: 0;
+				   }
+				   to {
+					   transform: translateX(0);
+					   opacity: 1;
+				   }
+			   }
+		   #pagination{
+			   display: flex;
+			   flex-direction: column;
+		   }
+		   .pagination > ul{
+			   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+		   }
+		   .pagination a {
+			   cursor: pointer;
+			   color: #3B1F9E;
+		   }
+   
+   
+		   .page-item.active .page-link {
+			   background-color: #3B1F9E !important;
+		   }
+		   .page-item.active a{
+			   color: #fff;
+		   }
+   
+		   .page-link a{
+			   color: #ffffff !important;
+		   }
+		   
+		   .the-col,
+		   .line,
+		   .left,
+		   .head,
+		   .right {
+			   opacity: 1;
+		   }
+		   @media only screen and (max-width: 500px){
+			   .page-item{
+				   display: none;
+				   margin: 0 auto;
+			   }
+			   .prev,.next{
+				   display: flex;
+			   }
+			   .all-users{
+				   width: 100%;
+				   margin: 0 auto;
+			   }
+			   
+		   }
+		   

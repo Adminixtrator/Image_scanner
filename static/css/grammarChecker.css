@@ -1,0 +1,232 @@
+
+
+h3 {
+	font-size: 1.6em;
+}
+
+
+#page-wrap {
+	margin: 20px auto;
+	width: 750px;
+}
+
+.bu{
+	color: #3B1F9E;
+	font-family: Nunito;	
+width: 245px;
+height: 46px;
+font-weight: 800;
+font-size: 18px;
+text-align: center;
+
+background: rgba(59, 31, 158, 0.05);
+border-radius: 40px;
+}
+
+
+textarea {
+	background: #FFFFFF;
+box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
+	width: 100%;
+	height: 500px;
+	
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	
+	background-position: bottom right;
+	background-repeat: no-repeat;
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto;}*/}
+
+#checktextpara, #keyslang, .h, .card-body, article{
+    display: flex;
+    justify-content: center;
+
+}
+section{
+	
+	height: 10%;
+}
+
+#keyslang{
+	/*height: 50px;*/
+	/*border: 2px solid black;*/
+}
+.card-body{
+	
+	height: 50%;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.05);
+
+}
+
+			.contain {
+				text-align: center;
+			}
+			
+        
+			
+      @media screen and (max-width: 600px) {
+  
+  #setDiv{
+	display: flex;
+    justify-content: center;
+font-size: 1em;
+  }
+  
+
+        .btn{
+          width: 10px;
+          height: 10px;
+          font-size:5px;
+        }
+
+        
+        
+			h1{
+				font-size: 1em;
+			}
+
+}
+			#btn-link .button {
+				border: none;
+				outline: none;
+				padding: 0.5rem 1rem;
+				color: #fff;
+				border-radius: 10px;
+				background: #141460;
+				margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+				transition: transform .5s;
+			}
+
+			
+
+			@keyframes bottom {
+				from {
+					transform: translateY(50%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+
+			@keyframes left {
+				from {
+					transform: translateX(-50%);
+					opacity: 0;
+				}
+				to {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+			@keyframes right {
+				from {
+					transform: translateX(50%);
+					opacity: 0;
+				}
+				to {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+			
+			.anime-head {
+			    animation: head 1s ease-in-out;
+			}
+			
+			@keyframes head {
+			    0% {
+			        transform: translateX(-50%);
+			    }
+			    100% {
+			        transform: translateX(0);
+			    }
+			}
+			
+			#anime-txt {
+			    animation: txt 1s 1s ease-in-out forwards;
+			    opacity: 0;
+			}
+			
+			@keyframes txt {
+			    0% {
+			        opacity: 0;
+			    }
+			    100% {
+			        opacity: 1;
+			    }
+			}
+			
+			#btn-one {
+			    animation: btnOne .7s 1.5s ease-in-out forwards;
+			    opacity: 0;
+			}
+			
+			@keyframes btnOne {
+				from {
+					transform: translateY(50%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+			
+			
+			
+			@keyframes btnTwo {
+				from {
+					transform: translateY(50%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+
+			@keyframes pop {
+        from {
+          transform: scale(0);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .animated {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+} 
+
+@-webkit-keyframes bounce {
+  0%, 20%, 40%, 60%, 80%, 100% {-webkit-transform: translateY(0);}
+  50% {-webkit-transform: translateY(-5px);}
+} 
+
+@keyframes bounce { 
+  0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-5px);}
+} 
+
+.bounce { 
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+
+      
+    

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Docufix | Image Scanner</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#3B1F9E" />
+        <link rel="manifest" href="{{ url_for('static', filename='js/manifest.json') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/w3.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header&footer.css') }}">
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo_g4kuoa.png') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/wysiwyg.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fileupload.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ubuntu.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/toastr.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fileDuplicate.css') }}">
+
+      
+       <script type="text/javascript" src ="{{ url_for('static', filename='js/rokoInstabot.js') }}" crossorigin>
+        apiKey: "vXj90M2ifAvu8fS739jFKepTXtES72ur59sGR5TPK9c="
+      </script>
+
+      <style>
+
+        #txt,#docx,#pdf{
+
+          color: #fff;
+
+        }
+
+      #txt:hover{
+        color: #d5d5d5;
+        margin-right: .5em;
+      }
+      #docx:hover{
+        color: #d5d5d5;
+        margin-top: .5em;
+      }
+      #pdf:hover{
+        color: #d5d5d5;
+        margin-left: .5em;
+      }
+      button{
+        color: #fff;
+      }
+
+      </style>
+    </head>
+
+    <body style="background-color:  white; font-family: Ubuntu;"
+    onload="view()">
+        <!--Header-->
+        <div class="w3-container" >
+            <div id="id01" class="w3-modal" >
+              <div class="w3-modal-content mb-2 mt-5 mt-md-0 mx-auto" style="max-width: 100%">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                  class="w3-button w3-display-topright mb-0">&times;</span>
+                  <!--
+                  <div class="form-group pl-3 mb-0" id="checkbox">
+                    <label for="modalSetting" class="font-weight-bold"><input type="checkbox" name="modal" id="modalSetting" onchange="visibility()"> Check this box to stop getting this alert</label>
+            
+              </div>
+            -->
+            </div>
+          </div>
+          <header>
+          <nav class="navbar navbar-expand-lg navbar-light scrolling-navbar fixed-top">
+            <a class="navbar-brand px-sm-5 ml-3" href="/index"><img src="{{ url_for('static', filename='Docufix_Logo_lnsgsr.svg') }}" alt="DOCUFIX" id="image"></a>
+           
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto px-5">
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="/about_us">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tools
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-justify" href="/fileUpload">Compare files</a>
+                    <a class="dropdown-item text-justify" href="/grammerChecker">Grammar Check</a>
+                    <a class="dropdown-item text-justify" href="/fileDuplicate">Duplicates Check</a>
+                    <a class="dropdown-item text-justify" href="/plagiarismChecker">Plagiarism Check</a>
+                    <a class="dropdown-item text-justify" href="/">Image Scanner</a>
+                    <a class="dropdown-item text-justify" href="/paraphrase">Paraphrasing tool</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Support
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-justify" href="/faq">FAQ</a>
+                    <a class="dropdown-item text-justify" href="/contact">Contact Us</a>
+                    <a class="dropdown-item text-justify" href="/why-use-docufix">Why use Docufix</a>
+                    <a class="dropdown-item text-justify" href="/privacy">Privacy Policy</a>
+                    <a class="dropdown-item text-justify" href="/termsOfService">Terms of Service</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="/teampage">Our Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="/login">Login</a>
+                </li>
+                
+              </ul>
+            </div>
+          
+          </nav>
+    </header>
+        <!--Body-->
+        <div id="main">
+          
+            <div class="container mt-5 pt-5" style="min-height: 100vh" >
+              <div class="row">
+                <div class="col-md-7  ml-0 ml-md-4 duplicate-file-header">
+    
+                    <div class="row custom-row">
+                        <div class="col-xs-3">
+                                <div class="white-circle"></div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="page-description">
+                                <h2>Scan Image text</h2>
+                                <p>Docufix is one of the most innovative Technology of our age. Built solidly with the latest technical tools for file and data management.</p>
+                            </div>
+                        </div>
+              
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-4 ml-0 ml-md-3 mt-4 mt-md-0 p-2 tools-link-box">
+                    <div class="tools-btn-block">
+                    <p>Other Tools:</p>
+                        <button class="btn tools-btn">Grammar Check</button>
+                        <button class="btn tools-btn">Check for duplicates</button>
+    
+                    </div>
+                <!--<div class="btn float-right " style="cursor: pointer;color: rgba(12, 10, 90, 0.8)"  onclick="instruction()">Instructions</div>-->
+
+                </div>
+            </div>
+              <div>
+              
+              <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                  
+                    <div class=" btn rounded-pill active1 px-0"  id="fileBtn"><span href="#" class=" px-5 py-3 rounded-pill "
+                      style="text-decoration: none; margin-right: 10px;">Image</span></div>
+                    
+                </div>
+               
+            </div>
+            
+    
+              <div id="file">
+                <div class="text-center mt-5">
+
+                  <form class="mb-5" id="uploadform" method="POST" enctype="multipart/form-data">
+                    <div class="row mt-5">
+                      <div class="col-md-6" >
+                            
+                                <p style=" width: 100%; margin-left: 50%; margin-right: 50%;">Ensure your text is ordered and clear as shown in image below for optimum results. Docufix only supports image formats like .jpg, .png and .jpeg for
+                                        <strong>uploading</strong></p>
+                            <div style="border: 1px solid #3B1F9E; border-radius: 10px; padding: 2px; width: 100%; margin-bottom: 1em; margin-left: 50%; margin-right: 50%;">
+                                <img src="{{ url_for('static', filename='images/sample.png') }}" alt="Sample Image" style="width: 100%;">
+                            </div>
+                            
+                    
+                    <div class="upload-container" style="margin-left: 50%; margin-right: 50%;">
+                            <div class="dotted-container">
+                                <div class="folder-logo">
+                                        <div class="white-circle text-center">
+                                                <img class="img-fluid" src="{{ url_for('static', filename='images/Group.png') }}" alt="" style="margin: auto" srcset="">
+                                            </div>
+
+                                          
+                                            <!-- <input type="file" name="" id=""> -->
+                                            <div class="upload-files-section">
+                                              
+                                                <p id="file-uploaded">{{ msg }}</p>
+                                              
+                                            <p id='buttonid' required>  <img class="img-fluid"  width="24" height="18" src="{{ url_for('static', filename='images/Group.png') }}" alt="" style="margin: auto" srcset=""> Click to add file </p> 
+                                            
+                                            <input id='upload1' name="file1" accept="image/x-png,image/jpg,image/jpeg" type='file' hidden>
+                                            
+                                            
+                                           
+                
+                                             </div>
+                                             </div>
+                                             
+                                </div>
+                        
+                                </div>
+                        </div>
+                        
+                     </div>
+
+                 
+                    
+                      <input type="submit" class="btn uploadBtnClass" value="Scan" style="margin: 1em;" id="docx" required>
+          
+                         
+                    
+                  </form>
+
+                  
+          
+                <!--
+               
+                <div class='container' id="resultArea">
+                  <div id="page"></div>
+                   
+                    <textarea id="textareaDifferences" style="min-height:100%; width: 100%;overflow: scroll; box-shadow: 0px 0px 4px 1px grey"  cols="30" rows="10"></textarea>
+
+                <button onclick="document.getElementById('id02').style.display='block'" class="btn-dark mt-2 mb-5"
+                  style="padding: 7px 14px;"><i class="fas fa-cloud-download-alt"></i>Download <strong>HERE</strong></button>
+                </div>
+                    
+                
+          
+          
+          
+          
+                <div class="w3-container">
+                  <div id="id02" class="w3-modal">
+                    <div class="w3-modal-content" style="border-radius: 4px;">
+                      <div class="w3-container">
+                        <span onclick="document.getElementById('id02').style.display='none'"
+                          class="w3-button w3-display-topright">&times;</span>
+                        <br />
+                        <br />
+          
+                        <input type="text" placeholder="Please Specify Document Name..." id="saveAs" required></input>
+                        <button id="btn-export" onclick="exportHTML();" class="btn-dark mt-2 mb-5" style="padding: 7px 14px;"><i
+                            class="fas fa-cloud-download-alt"></i> Download as word
+                          doc</button>
+                        <button id="cmd" class="btn-dark mt-2 mb-5" style="padding: 7px 14px;"><i
+                            class="fas fa-cloud-download-alt"></i>Download as PDF</button>
+                            <button id="btn-export" onclick="txt();" class="btn-dark mt-2 mb-5" style="padding: 7px 14px;"><i
+                              class="fas fa-cloud-download-alt"></i> Download as .txt
+                      </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+          
+          
+              </div>
+          
+           
+              <div align="right" class="shareBtn" id="shareBtn">
+                <h4>Helpful? Please Share With Your Friends On:</h4>
+                <button class="twtShare" data-js="twitter-share"><i class="fab fa-twitter"></i> Twitter</button>
+                <button class="fbShare" data-js="facebook-share"><i class="fab fa-facebook-f"></i> Facebook</button>
+                <button class="fbShare" data-js="facebook-share"><a
+                    href="mailto:info@example.com?&subject=&body=http://docufix.ga Hey! I just compared scanned my image and got the text."><i
+                      class="fas fa-envelope"></i> Email</a></button>
+              </div>
+            -->
+
+            </div>
+        </div>
+
+    
+
+        {% if extracted_text %}
+        <div class="dotted-container" style="border-radius: 10px;">
+          <p style="font-family: 'Courier New', Courier, monospace; font-size: 2em; margin: 1em;"><b>Your text:</b></h3>
+          <p style="margin: 1em; margin-left: 2em; margin-right: 2em; padding: 7px; font-family: 'Courier New', Courier, monospace; border: #3B1F9E 1px solid; border-radius: 7px;">{{ extracted_text }}</p>
+          </div>  
+
+          <p align="center"><button type="submit" class="btn uploadBtnClass" style="margin: 1em; color: #fff;"><a href="{{ url_for('static', filename='Docufix.txt') }}" id="txt" download="Docufix.txt">Save as .txt</a></button> <button type="submit" class="btn uploadBtnClass" style="margin: 1em; color: #fff;"><a href="{{ url_for('static', filename='Docufix.doc') }}" id="docx" download="Docufix.doc">Save as .doc</a></button> <button type="submit" class="btn uploadBtnClass" style="margin: 1em; color: #fff;"><a href="{{ url_for('static', filename='Docufix.pdf') }}" id="pdf" download="Docufix.pdf">Save as .pdf</a></button></p>
+        {% endif %}
+            
+        <!--Footer-->
+        <footer id="footer">
+              <div class="container mt-3 mb-3">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                      <ul class="list-inline text-center">
+                          <li class="list-inline-item">
+                            <a class="text-center" href="#">&copy; 2019 Copyright Docufix</a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="text-center" href="/faq">FAQ</a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="text-center" href="/contact">Contact us</a>
+                          </li>
+                          <li class="list-inline-item">
+                              <a class="text-center" href="/privacy">Privacy Policy</a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a class="text-center" href="/termsOfService">Terms of Service</a>
+                          </li>
+                        </ul>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">This app was built by <a href="https://hng.tech/" target="_blank">HNGi6</a> interns</p>
+      </footer>
+        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/toastr.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/fileDuplicate.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/sw.js') }}"></script>
+
+
+            <script>
+          var SCROLLING_NAVBAR_OFFSET_TOP = 50;
+$(window).on("scroll", function() {
+  var $navbar = $(".navbar");
+
+  if ($navbar.length) {
+    if ($navbar.offset().top > SCROLLING_NAVBAR_OFFSET_TOP) {
+      $(".scrolling-navbar").addClass("top-nav-collapse");
+    } else {
+      $(".scrolling-navbar").removeClass("top-nav-collapse");
+    }
+  }
+});
+        </script>
+
+        
+    </body>
+</html>
