@@ -24,11 +24,23 @@ __`❍ cd Image_scanner`__
 
 __`❍ pip install -r requirements.txt`__
 
-**4)** Run the App:
+**4)** Install tesseract-ocr:
+
+__`❍ sudo apt-get install tesseract-ocr`__
+
+**5)** Get TESSDATA_PREFIX:
+
+__`❍ sudo find / -name "tessdata"`__  *Copy the path*
+
+**6)** Set TESSDATA_PREFIX:
+
+__`❍ export TESSDATA_PREFIX=path_you_copied`__
+
+**7)** Run the App:
 
 __`❍ python ImageScanner.py`__
 
-**5)** Open your browser and type in this URL. Post an article to be summarized:
+**8)** Open your browser and type in this URL. Upload an Image to be scanned:
 
 __`❍ http://127.0.0.1:8000/`__
 
