@@ -26,7 +26,7 @@ __`❍ pip install -r requirements.txt`__
 
 **4)** Run the App:
 
-__`❍ python ImagScanner.py`__
+__`❍ python ImageScanner.py`__
 
 **5)** Open your browser and type in this URL. Post an article to be summarized:
 
