@@ -1,3 +1,6 @@
 flask
-sumy
-numpy
+pytesseract
+pillow
+requests
+fpdf
+python-docx
