@@ -167,9 +167,6 @@ def ImageScanner():
             return render_template('ImageScanner.html',
                                    msg='Error occured',
                                    extracted_text='Error occured! Please check your file type and try again')
-            
-    elif request.method == 'GET':
-        return render_template('ImageScanner.html')
 
 
 if __name__ == '__main__':
